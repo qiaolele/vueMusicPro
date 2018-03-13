@@ -48,6 +48,7 @@ export default {
       for (let i = 0; this.children.length; i++) {
         let child = this.children[i]
         addClass(child, 'slider-item')
+        // addClass(child, 'slider-item')
         child.style.width = sliderWidth + 'px'
         width += sliderWidth
       }
